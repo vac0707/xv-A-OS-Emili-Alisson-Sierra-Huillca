@@ -1,0 +1,6 @@
+{
+  "name": "Remix: Emili Alisson - Mis 15 Años",
+  "description": "Invitación virtual interactiva para el 15vo cumpleaños de Emili Alisson Sierra Huillca. Una noche elegante bajo las estrellas y reflejos plateados.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
