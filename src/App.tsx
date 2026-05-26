@@ -415,7 +415,7 @@ export default function App() {
             <img 
               src={COVER_IMAGE} 
               alt="Emili Alisson"
-              className="w-full h-full object-cover object-top grayscale-[10%] opacity-75"
+              className="w-full h-full object-cover object-center grayscale-[10%] opacity-75"
             />
           </motion.div>
 
