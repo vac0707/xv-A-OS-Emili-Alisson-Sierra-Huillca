@@ -5,11 +5,11 @@ import { Play, Pause, MapPin, Calendar, Clock, Shirt, Gift, ChevronLeft, Chevron
 // --- Constants & Data ---
 const EVENT_DATE = new Date('2026-05-30T11:00:00');
 const MUSIC_URL = "https://res.cloudinary.com/dcnynnstm/video/upload/v1779747463/CHROMATICS_GIRLS_JUST_WANNA_HAVE_SOME_Official_Video_yqea0s.mp3";
-const COVER_IMAGE = "https://res.cloudinary.com/dcnynnstm/image/upload/v1779755085/fotr_xv_a8givw.jpg";
+const COVER_IMAGE = "https://res.cloudinary.com/dcnynnstm/image/upload/v1779755775/foto_x7mnyl.jpg";
 const BG_PATTERN = "https://res.cloudinary.com/dcnynnstm/image/upload/v1773723965/497927484_1363051325167172_558942534762591556_n_w2cdp4.jpg";
 
 const GALLERY_IMAGES = [
-  "https://res.cloudinary.com/dcnynnstm/image/upload/v1779755085/fotr_xv_a8givw.jpg",
+  "https://res.cloudinary.com/dcnynnstm/image/upload/v1779755775/foto_x7mnyl.jpg",
   "https://images.unsplash.com/photo-1513151233558-d860c5398176?w=1200&auto=format&fit=crop&q=80",
   "https://images.unsplash.com/photo-1464366400600-7168b8af9bc3?w=1200&auto=format&fit=crop&q=80"
 ];
