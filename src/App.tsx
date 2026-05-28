@@ -1,6 +1,6 @@
 import { useEffect, useState, useRef, RefObject } from 'react';
 import { motion, AnimatePresence } from 'motion/react';
-import { Play, Pause, MapPin, Calendar, Clock, Shirt, Gift, ChevronLeft, ChevronRight, Music, Heart, MailOpen } from 'lucide-react';
+import { Play, Pause, MapPin, Calendar, Clock, Shirt, Gift, ChevronLeft, ChevronRight, Music, Heart, MailOpen, Facebook, Youtube, MessageCircle } from 'lucide-react';
 
 // --- Constants & Data ---
 const EVENT_DATE = new Date('2026-05-30T11:00:00');
@@ -706,6 +706,67 @@ export default function App() {
             <p className="font-serif-cinzel text-[10px] tracking-[1em] text-silver uppercase">Emili Alisson</p>
             <p className="font-sans text-[8px] tracking-[0.2em] text-silver uppercase text-center">Mis 15 Años • 2026</p>
           </div>
+
+          <motion.div 
+            initial={{ opacity: 0, y: 20 }}
+            whileInView={{ opacity: 1, y: 0 }}
+            viewport={{ once: true }}
+            className="max-w-md mx-auto p-6 rounded-lg glass-card border border-accent/20 bg-celestial-dark/60 space-y-4"
+          >
+            <p className="font-sans text-[9px] tracking-[0.2em] text-accent font-semibold uppercase">¿Deseas una invitación como esta?</p>
+            
+            <div className="space-y-1">
+              <h4 className="font-serif-cinzel text-sm text-silver-bright font-bold tracking-wider">V.A.C. Creative</h4>
+              <p className="font-sans text-[11px] text-silver/75 italic">Invitaciones virtuales y diseño gráfico en general</p>
+            </div>
+
+            <div className="flex justify-center gap-3 pt-2">
+              <motion.a 
+                whileHover={{ scale: 1.15, y: -2 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://wa.me/51932350348?text=Hola%20V.A.C.%20Creative%2C%20vi%20tu%20trabajo%20en%20la%20invitaci%C3%B3n%20de%20Emili%20Alisson%20y%20me%20gustar%C3%ADa%20m%C3%A1s%20informaci%C3%B3n%20sobre%20tus%20invitaciones%20virtuales%20y%20servicios%20de%20dise%C3%B1o%20gr%C3%A1fico.%20%F0%9F%8E%89%E2%9C%A8"
+                target="_blank" 
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-accent/10 border border-accent/30 text-accent hover:bg-accent/20 hover:border-accent transition-all"
+                title="WhatsApp"
+              >
+                <MessageCircle className="w-4 h-4" />
+              </motion.a>
+              <motion.a 
+                whileHover={{ scale: 1.15, y: -2 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://www.tiktok.com/@vaccreative?is_from_webapp=1&sender_device=pc"
+                target="_blank" 
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-accent/10 border border-accent/30 text-accent hover:bg-accent/20 hover:border-accent transition-all"
+                title="TikTok"
+              >
+                <Music className="w-4 h-4" />
+              </motion.a>
+              <motion.a 
+                whileHover={{ scale: 1.15, y: -2 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://www.facebook.com/VAC.Creativ"
+                target="_blank" 
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-accent/10 border border-accent/30 text-accent hover:bg-accent/20 hover:border-accent transition-all"
+                title="Facebook"
+              >
+                <Facebook className="w-4 h-4" />
+              </motion.a>
+              <motion.a 
+                whileHover={{ scale: 1.15, y: -2 }}
+                whileTap={{ scale: 0.9 }}
+                href="https://www.youtube.com/@V.A.C.Creative"
+                target="_blank" 
+                rel="noreferrer"
+                className="w-9 h-9 rounded-full flex items-center justify-center bg-accent/10 border border-accent/30 text-accent hover:bg-accent/20 hover:border-accent transition-all"
+                title="YouTube"
+              >
+                <Youtube className="w-4 h-4 text-center" />
+              </motion.a>
+            </div>
+          </motion.div>
         </section>
 
       </main>
